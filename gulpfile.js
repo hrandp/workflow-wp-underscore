@@ -39,7 +39,7 @@ gulp.task('compass', function(){
 
 			}))
 			.on('error', gutil.log)
-			.pipe(gulp.dest('builds/development/'))
+			.pipe(gulp.dest('builds/development'))
 
 });
 
@@ -49,3 +49,6 @@ gulp.task('js', function(){
 		.pipe(browserify())
 		.pipe(gulp.dest('builds/development/js'))
 });
+
+//Proccess all files
+gulp.task('default', ['coffee', 'js', 'compass'])
