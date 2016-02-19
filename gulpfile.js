@@ -50,5 +50,12 @@ gulp.task('js', function(){
 		.pipe(gulp.dest('builds/development/js'))
 });
 
+//Watch all files
+gulp.task('watch', function() {
+	gulp.watch(coffeeSources, ['coffee']);
+	gulp.watch(jsSources, ['js']);
+	gulp.watch('components/sass/**/*.scss', ['compass']);
+});
+
 //Proccess all files
 gulp.task('default', ['coffee', 'js', 'compass'])
