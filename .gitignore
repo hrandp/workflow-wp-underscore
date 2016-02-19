@@ -1,6 +1,11 @@
 # -----------------------------------------------------------------
 # .gitignore for WordPress
 # -----------------------------------------------------------------
+#node 
+node-modules
+.tmp
+.sass-cache
+builds/**/images/*
 
 # ignore everything in the root except the "wp-content" directory.
 /*
