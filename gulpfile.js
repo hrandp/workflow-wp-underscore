@@ -3,6 +3,7 @@ var gulp = require('gulp'),
 	gutil = require('gulp-util'),
 	coffee = require('gulp-coffee'),
 	concat = require('gulp-concat'),
+	browserify = require('gulp-browserify'),
 	compass = require('gulp-compass');
 
 //Variable Declorations
@@ -45,5 +46,6 @@ gulp.task('compass', function(){
 gulp.task('js', function(){
 	gulp.src(jsSources)
 		.pipe(concat('main.js'))
+		.pipe(browserify())
 		.pipe(gulp.dest('builds/development/js'))
 });

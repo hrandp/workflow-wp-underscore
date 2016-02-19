@@ -1,8 +1,8 @@
 # -----------------------------------------------------------------
 # .gitignore for WordPress
 # -----------------------------------------------------------------
-#node 
-node-modules
+.DS_Store
+node_modules
 .tmp
 .sass-cache
 builds/**/images/*

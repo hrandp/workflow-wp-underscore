@@ -23,6 +23,8 @@
     "gulp-jsonminify": "^1.0.0",
     "gulp-uglify": "^1.5.2",
     "gulp-util": "^3.0.7",
+    "jquery": "^2.2.0",
+    "mustache": "^2.2.1",
     "node": "0.0.0"
   }
 }
