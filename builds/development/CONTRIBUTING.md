@@ -3,7 +3,7 @@ Thanks for contributing to `_s` (Underscores) — you rock!
 ## Submitting issues
 Before submitting your issue, make sure it has not been discussed earlier. You can search for existing tickets [here](https://github.com/Automattic/_s/search).
 
-Here sare some tips to consider and to help you write a great report:
+Here are some tips to consider and to help you write a great report:
 
 * `_s` supports Microsoft Internet Explorer 11 and Edge, as well as the latest two versions of all other major browsers.
 * `_s` is backwards compatible with the two versions prior to the current stable version of WordPress.
